@@ -18,6 +18,13 @@ margin-top: 6vh;
     color: white;
    
 }
+.logo{  margin: 1vh 0.5vw;
+    transition-duration: 0.3s;
+    border: none;
+    background-color:rgba(245, 222, 179, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: white;}
 
 .nvbr:hover{
     transform: scale(1.2);

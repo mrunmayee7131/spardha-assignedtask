@@ -2,7 +2,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  size: cover;
+ height: 100vh;
+ width: 100vw;
   z-index: -1;
   opacity: 0.6;
 }

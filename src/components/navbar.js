@@ -3,7 +3,7 @@ import './navbar.css'
 function navbar() {
   return (
     <div className='navbar'>
-        <button className='nvbr'>LOGO</button>
+        <button className='logo'>LOGO</button>
         <div className='empty1'></div>
         <button className='nvbr'>HOME</button>
         <button className='nvbr'>ABOUT</button>
