@@ -29,5 +29,4 @@ function Mid() {
     </div>
   )
 }
-
 export default Mid;
