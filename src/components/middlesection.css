@@ -1,0 +1,70 @@
+.img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	size: cover;
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+	opacity: 0.6;
+}
+
+body {
+	margin: 0px;
+	background-image: linear-gradient(to right, red, blue);
+	background-size: 100%;
+}
+.container {
+	display: flex;
+}
+.left-box {
+	color: white;
+	text-align: center;
+	width: 60vw;
+	height: 60vh;
+}
+.right-box {
+	width: 40vw;
+	height: 60vh;
+}
+.heading1 {
+	padding-top: 15%;
+	font-family: "Kanit", sans-serif;
+	font-size: 70px;
+}
+.description {
+	padding-bottom: 5%;
+}
+.button-container {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 20%;
+   
+}
+
+.right-box {
+	justify-content: center;
+}
+.days {
+	font-size: 100px;
+	color: red;
+}
+.card-text {
+	background-color: red;
+	color: white;
+}
+.right-box {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+}
+.card-wrapper {
+	text-align: center; /* Center the content inside the card */
+}
+.card {
+	max-width: 100%;
+}
+.btn{
+    font-weight: bolder;
+    padding: 1vh 3vw;
+}
