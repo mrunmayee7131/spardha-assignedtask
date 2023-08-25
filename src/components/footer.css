@@ -1,0 +1,46 @@
+.footbox {
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+.footer {
+	display: flex;
+	gap: 4vw;
+	justify-content: center;
+	background-image: linear-gradient(
+		to right,
+		white,
+		rgba(255, 255, 255, 0),
+		rgba(255, 255, 255, 0),
+		rgba(255, 255, 255, 0),
+		white
+	);
+}
+.info {
+	text-align: center;
+}
+.info1 {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+.info2 {
+	font-weight: 700;
+	font-size: 2.5rem;
+	display: flex;
+	gap: 3vw;
+	font-family: Helvetica Compressed;
+}
+.info3 {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+.logo1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5vw;
+	color: red;
+	font-weight: 700;
+	font-size: 1.3rem;
+}

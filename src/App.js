@@ -3,6 +3,8 @@ import Navbar from './components/navbar';
 import './App.css';
 import Mid from './components/middlesection';
 import Carousel from './components/carousel';
+import Foot from './components/footer';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <div className="hehe">
           <Navbar />
           <Mid />
+          <Foot />
         </div>
       </section>
     </div>
