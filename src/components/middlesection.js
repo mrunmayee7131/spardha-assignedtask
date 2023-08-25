@@ -1,7 +1,7 @@
 import React from 'react'
 import './middlesection.css'
 
-
+import Date1 from './date';
 function Mid() {
   return (
     <div>
@@ -22,7 +22,8 @@ function Mid() {
         </div>
         <div className="right-box">
           <div className='card'>
-            <div className='ctext'></div>
+            <div className='cdate'>{Date1()}</div>
+            <div className='ctext'>Days Remaining</div>
           </div>
         </div>
       </div>

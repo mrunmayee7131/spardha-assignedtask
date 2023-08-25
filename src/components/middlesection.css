@@ -31,29 +31,44 @@ body {
 	margin: 0 20%;
 }
 
-.right-box {
-	justify-content: center;
-}
+
 .days {
 	font-size: 100px;
 	color: red;
 }
-.card-text {
-	background-color: red;
-	color: white;
-}
+
 .right-box {
 	display: flex;
-	justify-content: center; /* Center horizontally */
-	align-items: center; /* Center vertically */
+	justify-content: center; 
+	align-items: center; 
 }
-.card-wrapper {
-	text-align: center; /* Center the content inside the card */
-}
-.card {
-	max-width: 100%;
-}
+
 .btn {
 	font-weight: bolder;
 	padding: 1vh 3vw;
+}
+
+.card{
+    height: 25vh;
+    width: max-content;
+}
+.cdate{
+    height: 70%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12vh;
+    font-weight: 700;
+    font-style: italic;
+}
+.ctext{
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
