@@ -14,7 +14,6 @@ function carousel() {
                         <img className="d-block w-100" src={IMG2} alt="bg" />
                     </div>
                 </div>
-
             </div>
         </>
     )
