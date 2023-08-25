@@ -98,6 +98,7 @@ body {
 	}
 	.right-box {
 		display: none;
+		padding: none;
 	}
 	.heading1 {
 		font-size: 1.5rem;
