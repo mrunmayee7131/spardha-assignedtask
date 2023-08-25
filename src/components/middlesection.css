@@ -1,14 +1,3 @@
-.img {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	size: cover;
-	height: 100vh;
-	width: 100vw;
-	z-index: -1;
-	opacity: 0.6;
-}
-
 body {
 	margin: 0px;
 	background-image: linear-gradient(to right, red, blue);
@@ -16,6 +5,7 @@ body {
 }
 .container {
 	display: flex;
+	position: relative;
 }
 .left-box {
 	color: white;
@@ -39,7 +29,6 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0 20%;
-   
 }
 
 .right-box {
@@ -64,7 +53,7 @@ body {
 .card {
 	max-width: 100%;
 }
-.btn{
-    font-weight: bolder;
-    padding: 1vh 3vw;
+.btn {
+	font-weight: bolder;
+	padding: 1vh 3vw;
 }
