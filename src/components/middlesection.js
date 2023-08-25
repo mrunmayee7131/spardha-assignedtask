@@ -8,16 +8,16 @@ function Mid() {
 
       <div className="container">
         <div className="left-box">
-          <h1 className="heading1"><strong><b><i>SPARDHA 2023<br />NEVER GIVE UP</i></b></strong></h1>
-          <p className="description">Annual sports festival of IIT (BHU) under the Games and Sports Council.</p>
+          <div className="heading1">SPARDHA 2023 <br />NEVER GIVE UP</div>
+          <div className="description">Annual sports festival of IIT (BHU) under the Games and Sports Council.</div>
 
           <div className="button-container">
-            <div className="button1">
-              <button type="button" className="btn btn-danger btn-lg">REGISTER</button>
-            </div>
-            <div className="button2">
-              <button type="button" className="btn btn-outline-light btn-lg">MATCHES</button>
-            </div>
+
+            <button className="btn1">REGISTER</button>
+
+
+            <button className="btn2">MATCHES</button>
+
           </div>
         </div>
         <div className="right-box">

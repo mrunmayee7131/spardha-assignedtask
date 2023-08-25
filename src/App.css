@@ -1,10 +1,14 @@
-section {
+.sctn {
 	width: 100vw;
+	display: flex;
 	height: 100vh;
 	margin: 0px;
 	background-image: linear-gradient(to right, red, blue);
 	background-size: 100%;
 }
+
 .hehe {
 	position: relative;
+	display: flex;
+	flex-direction: column;
 }

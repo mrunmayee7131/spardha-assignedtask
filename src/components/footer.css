@@ -22,18 +22,18 @@
 }
 .info1 {
 	font-weight: 600;
-	font-size: 1.5rem;
+	font-size: 3vh;
 }
 .info2 {
 	font-weight: 700;
-	font-size: 2.5rem;
+	font-size: 5vh;
 	display: flex;
 	gap: 3vw;
 	font-family: Helvetica Compressed;
 }
 .info3 {
 	font-weight: 600;
-	font-size: 1.2rem;
+	font-size: 1vh;
 }
 .logo1 {
 	display: flex;
@@ -42,5 +42,5 @@
 	width: 5vw;
 	color: red;
 	font-weight: 700;
-	font-size: 1.3rem;
+	font-size: 2vh;
 }

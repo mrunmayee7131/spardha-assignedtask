@@ -13,13 +13,12 @@ function navbar() {
       <button className='nvbr'>GALLERY</button>
       <div className='empty2'></div>
       <div className='socialmedialinks'>
-        <div className='smlink'><i className="fa-brands fa-facebook fa-xl" /></div>
+        <div className='smlink'><i className="fa-brands fa-facebook fa-xl"></i></div>
         <div className='smlink'><i className="fa-brands fa-instagram fa-xl"></i></div>
         <div className='smlink'><i className="fa-brands fa-twitter fa-xl"></i></div>
       </div>
-
     </div>
   )
 }
 
-export default navbar
+export default navbar;
