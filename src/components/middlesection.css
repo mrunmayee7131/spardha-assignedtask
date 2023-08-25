@@ -31,7 +31,6 @@ body {
 	margin: 0 20%;
 }
 
-
 .days {
 	font-size: 100px;
 	color: red;
@@ -39,8 +38,8 @@ body {
 
 .right-box {
 	display: flex;
-	justify-content: center; 
-	align-items: center; 
+	justify-content: center;
+	align-items: center;
 }
 
 .btn {
@@ -48,27 +47,29 @@ body {
 	padding: 1vh 3vw;
 }
 
-.card{
-    height: 25vh;
-    width: max-content;
+.card {
+	height: 25vh;
+	width: max-content;
 }
-.cdate{
-    height: 70%;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12vh;
-    font-weight: 700;
-    font-style: italic;
+.cdate {
+	height: 70%;
+	color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12vh;
+	font-weight: 700;
+	font-style: italic;
 }
-.ctext{
-    height: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    font-weight: 600;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.ctext {
+	height: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: red;
+	color: white;
+	align-items: center;
+	border-radius: 5px;
+	font-weight: 600;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
