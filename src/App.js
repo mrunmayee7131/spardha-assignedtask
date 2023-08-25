@@ -9,7 +9,7 @@ import Foot from './components/footer';
 function App() {
   return (
     <div>
-      <section>
+      <section className='sctn'>
         <div className='bg'>
           <button id='btn1' className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -22,9 +22,18 @@ function App() {
           <Carousel />
         </div>
         <div className="hehe">
-          <Navbar />
-          <Mid />
-          <Foot />
+          <div>
+            <Navbar />
+          </div>
+          <div>
+            <Mid />
+          </div>
+          <div>
+            <Foot />
+          </div>
+
+
+
         </div>
       </section>
     </div>
