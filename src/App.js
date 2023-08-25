@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar';
+import './components/navbar';
 import './App.css';
 import Mid from './components/middlesection';
 import Carousel from './components/carousel';
@@ -31,9 +32,6 @@ function App() {
           <div>
             <Foot />
           </div>
-
-
-
         </div>
       </section>
     </div>
