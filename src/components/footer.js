@@ -8,7 +8,7 @@ function Foot() {
                 <div className="info">
                     <div className="info1">CRICKET</div>
                     <div className="info2">
-                        <span>IIT(BHU)</span>
+                        <span>IIT (BHU)</span>
                         <span> X </span>
                         <span>IIT DELHI</span>
                     </div>
